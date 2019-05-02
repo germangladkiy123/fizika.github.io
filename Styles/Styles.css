@@ -1,0 +1,158 @@
+.body1{
+    background-image: url("../Images/физика\ 1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+.body2{
+    background-image: url("../Images/физика\ 2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+.body3{
+    background-image: url("../Images/физика\ 3.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+.body4{
+    background-image: url("../Images/физика\ 4.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+.body5{
+    background-image: url("../Images/физика\ 1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+.body6{
+    background-image: url("../Images/физика\ 2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+.body7{
+    background-image: url("../Images/физика\ 3.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+.body8{
+    background-image: url("../Images/физика\ 4.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+.body9{
+    background-image: url("../Images/физика\ 1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+table{
+    border-color: rgb(0, 2, 2);
+    border-width: 2px;
+    border-collapse: collapse;  
+    background-color: rgb(255, 255, 255); 
+    float: left;
+   }
+   a{
+    text-decoration: none;
+}
+td{
+    border-color: rgb(0, 0, 0);
+        border-width: 2px;  
+    border-style: solid;
+}
+td:hover{
+    background-color:rgb(33, 117, 212); 
+}
+span{
+    font-size: 25px;
+}
+div{
+    font-size: 25px;
+}
+.zagolovok{
+    font-size: 40px;
+    color: black;
+    background-color: bisque;
+}
+.sd1{
+    font-size: 25px;
+    color:blue;
+   
+    opacity: 0.9;
+}
+
+.sd2{
+    color:blue;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.9;
+    }
+.sd3{
+     background-color: white;
+    color:blue;
+    
+    
+}
+.menu{
+    list-style: none;
+    }
+.menu li{
+    display:inline-block;
+    border-width: 2px;  
+    border-style: solid;
+    padding: 2px 2px 1px 1px;
+    border-color: rgb(0, 0, 0);
+    text-align: center;
+    position: relative;
+    background-color: greenyellow;
+    
+    color: black;
+}
+.menu li:hover{
+    background-color: rgb(93, 102, 233);
+}
+.menu a{
+   text-decoration: none; 
+}
+.menu a:hover{
+    text-decoration: underline;  
+}
+.menu li ul {
+    display: none;
+    font-size: 20px;
+    border-color: red;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    top: 42px;
+}
+.menu li ul li{
+ float: none;
+ height: auto;
+ margin: 0;
+ width: auto;
+ text-align: center;
+ background-color: red;
+ position: relative;
+
+ 
+ 
+
+
+}
+.menu  li:hover ul {
+    display: block;
+    position: absolute;
+    z-index: 1000;
+}
+.menu li ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 150px;
+
+}
+#iframe{
+    
+    border: rgb(76, 10, 163) solid 7px;
+    
+    margin-top: 40px;
+    
+}
